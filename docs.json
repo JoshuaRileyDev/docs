@@ -78,7 +78,7 @@
             ]
           },
           {
-            "group": "Watch_Input",
+            "group": "Watch Input",
             "pages": [
               "watch_input/watch_tap_input"
             ]
@@ -95,7 +95,7 @@
             ]
           },
           {
-            "group": "Data_Storage",
+            "group": "Data Storage",
             "pages": [
               "data_storage/get_text_from_storage",
               "data_storage/get_text_array_from_storage",
@@ -114,7 +114,7 @@
             ]
           },
           {
-            "group": "Background_And_Status_Bar",
+            "group": "Background And Status Bar",
             "pages": [
               "background_and_status_bar/hide_custom_background",
               "background_and_status_bar/set_background_color",
@@ -124,7 +124,7 @@
             ]
           },
           {
-            "group": "App_Control",
+            "group": "App Control",
             "pages": [
               "app_control/switch_to_wingman_app",
               "app_control/reset_wingman_app"
@@ -159,7 +159,7 @@
             ]
           },
           {
-            "group": "Apple_Watch",
+            "group": "Apple Watch",
             "pages": [
               "apple_watch/send_image_url_to_watch",
               "apple_watch/send_text_to_watch",
@@ -167,7 +167,7 @@
             ]
           },
           {
-            "group": "Icon_Management",
+            "group": "Icon Management",
             "pages": [
               "icon_management/set_icon_badge",
               "icon_management/hide_icon_badge",
@@ -175,7 +175,7 @@
             ]
           },
           {
-            "group": "AI_And_Image_Generation",
+            "group": "AI And Image Generation",
             "pages": [
               "ai_and_image_generation/generate_lifelike_drawing",
               "ai_and_image_generation/get_google_quickdraw_list",
