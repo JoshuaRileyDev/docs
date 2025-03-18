@@ -17,14 +17,180 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
             "group": "Routines",
             "pages": [
               "routines/note-card-prediction"
+            ]
+          },
+          {
+            "group": "ChatGPT",
+            "pages": [
+              "chatgpt/ask_about_image",
+              "chatgpt/prompt_chatgpt"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/get_from_elips",
+              "integrations/get_cover_from_elips",
+              "integrations/send_to_glyphs",
+              "integrations/send_to_wingman_api",
+              "integrations/get_from_imim",
+              "integrations/get_image_from_imim",
+              "integrations/send_to_lumen",
+              "integrations/send_to_mystiprint",
+              "integrations/send_to_vrtx"
+            ]
+          },
+          {
+            "group": "Inject",
+            "pages": [
+              "inject/get_from_inject",
+              "inject/send_to_inject"
+            ]
+          },
+          {
+            "group": "Inputs",
+            "pages": [
+              "inputs/get_last_input",
+              "inputs/show_camera_app",
+              "inputs/capture_photo",
+              "inputs/trigger_single_flic_input",
+              "inputs/trigger_multiple_flic_input",
+              "inputs/trigger_grid_input",
+              "inputs/trigger_keyboard_input",
+              "inputs/trigger_lockscreen_input",
+              "inputs/trigger_lockscreen_input_with_attempts",
+              "inputs/trigger_nfc_input",
+              "inputs/trigger_proximity_input",
+              "inputs/trigger_springboard_input",
+              "inputs/trigger_swipes_input",
+              "inputs/trigger_clock_face_swipes_input",
+              "inputs/trigger_voice_input",
+              "inputs/trigger_voice_input_from_list",
+              "inputs/stop_voice_recognition",
+              "inputs/trigger_volume_input"
+            ]
+          },
+          {
+            "group": "Watch_Input",
+            "pages": [
+              "watch_input/watch_tap_input"
+            ]
+          },
+          {
+            "group": "Calculations",
+            "pages": [
+              "calculations/calculate_atomic_deck",
+              "calculations/get_card_from_number",
+              "calculations/get_card_from_stack",
+              "calculations/get_position_in_stack",
+              "calculations/get_days_from_date",
+              "calculations/get_starsign_from_date"
+            ]
+          },
+          {
+            "group": "Data_Storage",
+            "pages": [
+              "data_storage/get_text_from_storage",
+              "data_storage/get_text_array_from_storage",
+              "data_storage/get_image_from_storage",
+              "data_storage/get_image_array_from_storage",
+              "data_storage/add_text_to_storage",
+              "data_storage/add_text_array_to_storage",
+              "data_storage/add_image_to_storage",
+              "data_storage/add_image_array_to_storage"
+            ]
+          },
+          {
+            "group": "Device",
+            "pages": [
+              "device/generate_haptic_feedback"
+            ]
+          },
+          {
+            "group": "Background_And_Status_Bar",
+            "pages": [
+              "background_and_status_bar/hide_custom_background",
+              "background_and_status_bar/set_background_color",
+              "background_and_status_bar/set_custom_background",
+              "background_and_status_bar/show_status_bar",
+              "background_and_status_bar/hide_status_bar"
+            ]
+          },
+          {
+            "group": "App_Control",
+            "pages": [
+              "app_control/switch_to_wingman_app",
+              "app_control/reset_wingman_app"
+            ]
+          },
+          {
+            "group": "T9",
+            "pages": [
+              "t9/t9_number_input"
+            ]
+          },
+          {
+            "group": "Video",
+            "pages": [
+              "video/preload_video",
+              "video/play_video",
+              "video/pause_video"
+            ]
+          },
+          {
+            "group": "Notes",
+            "pages": [
+              "notes/show_notes_app",
+              "notes/create_empty_note",
+              "notes/get_all_notes",
+              "notes/get_notes_count",
+              "notes/get_last_opened_note",
+              "notes/create_note",
+              "notes/get_note_contents",
+              "notes/get_note_title",
+              "notes/set_note_contents"
+            ]
+          },
+          {
+            "group": "Apple_Watch",
+            "pages": [
+              "apple_watch/send_image_url_to_watch",
+              "apple_watch/send_text_to_watch",
+              "apple_watch/send_haptic_to_watch"
+            ]
+          },
+          {
+            "group": "Icon_Management",
+            "pages": [
+              "icon_management/set_icon_badge",
+              "icon_management/hide_icon_badge",
+              "icon_management/set_icon_text"
+            ]
+          },
+          {
+            "group": "AI_And_Image_Generation",
+            "pages": [
+              "ai_and_image_generation/generate_lifelike_drawing",
+              "ai_and_image_generation/get_google_quickdraw_list",
+              "ai_and_image_generation/generate_quickdraw_drawing",
+              "ai_and_image_generation/insert_object_into_photo"
+            ]
+          },
+          {
+            "group": "Utilities",
+            "pages": [
+              "utilities/get_list",
+              "utilities/create_rolling_redirect_link",
+              "utilities/write_to_nfc_tag",
+              "utilities/get_calculator_url",
+              "utilities/exit_springboard_input"
             ]
           }
         ]
@@ -39,12 +205,10 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "API Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint/receive",
+              "api-reference/endpoint/send"
             ]
           }
         ]
@@ -65,8 +229,7 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Purchase",
@@ -74,8 +237,6 @@
     }
   },
   "footer": {
-    "socials": {
-      
-    }
+    "socials": {}
   }
 }
