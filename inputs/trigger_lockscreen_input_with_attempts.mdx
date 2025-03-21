@@ -1,7 +1,9 @@
 ---
 title: "Trigger Lockscreen Input With Attempts"
-description: ""
 ---
 
-Triggers the lockscreen input with attempts
+Sometimes you want to input more than 4 or 6 digits, this is why we’ve also added one more action called **Trigger Lockscreen with Attempts**, this works exactly the same way as the previous action however there’s an extra setting you can configure.
 
+This setting is the ability to set how many attempts it’ll take to seemingly input your passcode. For example, if you set this to 2 attempts then after entering the first time it’ll simulate that you entered incorrectly but it’ll still remember that entry.
+
+So if you entered in **1234** in the first attempt and then **5678** in the second attempt then the final output sent from the **WMP Return Input** shortcut will be **12345678**.

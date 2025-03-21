@@ -1,7 +1,39 @@
 ---
 title: "Trigger Voice Input"
-description: ""
 ---
 
-Trigger the voice input
+Voice input allows you to make use of the device’s speech recognition to covertly input information to then be used within your shortcut routine.
 
+To first setup Voice Input you’ll need to set your **language** which the app would use to convert your speech into text to be processed.
+
+This can be found by going into **Settings** -\> **Voice Input** and then you can set the **Set locale** setting to be your current language. As you'll see there are a lot of different dialects that can be chosen from.
+
+There are **multiple ways** to use **Voice Input** within the app.
+
+## Numbers
+
+You can detect **any length** of a number by using the **Trigger Voice Input** action. Search for this action and add it to your shortcut, you’ll then need to modify the **Detection Type** parameter to be **Numbers**.
+
+After if first detects a digit you’ll then have **3 seconds** to say any other digit before it locks it in. It can then be accessed by using the**Return Input**  shortcut.
+
+## Full Text
+
+This allows you to **start** the voice detection from a **shortcut action** and then use another input method such as **keyboard input** or **swipes input** to then **stop** the voice detection.
+
+I **wouldn’t** recommend this method if you’re not already familiar with programming your own iOS Shortcuts as this can get quite **complex** to set up.
+
+If you’re up for the challenge then here’s how to set this up.
+
+Firstly choose and add the Trigger Voice input action and then you’ll need to modify the detection type parameter to be Full text.
+
+You can then use the Trigger actions to trigger any other input methods, in this example I’ll use the keyboard input.
+
+After this you’ll need to use the utility shortcut Return input as this will then poll and wait for the input you added above to be completed. You’ll need to add this by adding the inbuilt Run Shortcut action and search for **WMP-Return Input**.
+
+Make sure you have that utility shortcut downloaded onto your phone. See the Modular programming section for more information.
+
+Once you’ve added this utility shortcut you can then add the custom action Stop Voice Input as this will then stop the voice recognition.
+
+And then finally you can add the Get Voice Input action and this will return the full text transcript of when the voice recognition was active between starting the voice recognition and stopping the voice recognition after the input.
+
+You can then use the inbuilt shortcut actions to extract any piece of information to be utilised in the rest of your routine.
