@@ -31,10 +31,15 @@
             ]
           },
           {
-            "group": "ChatGPT",
+            "group": "Actions",
             "pages": [
-              "chatgpt/ask_about_image",
-              "chatgpt/prompt_chatgpt"
+              {
+            "group": "Inputs",
+            "pages": [
+				"inputs/get_last_input"
+				
+			]
+          }
             ]
           },
           {
